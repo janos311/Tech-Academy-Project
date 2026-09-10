@@ -1,0 +1,13 @@
+table {
+    background-color: mintcream;
+    color: black;
+    border: 2px solid lightsky blue;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+tr:hover {
+    background-color: aqua;
+}
