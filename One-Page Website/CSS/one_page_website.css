@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+form input[type="text"] {
+    width: 20%;
+    margin: 5px;
+    border: 2px solid peachpuff;
+    border-radius: 7px;
+}
