@@ -1,0 +1,91 @@
+/* Slideshow container */
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide slides by default */
+.mySlides {
+    display: none;
+}
+
+/* Make images fit the container */
+.mySlides img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+/* Image number */
+.numbertext {
+    color: white;
+    font-size: 14px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Image caption */
+.text {
+    color: white;
+    font-size: 18px;
+    padding: 8px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Previous and next buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translateY(-50%);
+}
+
+.next {
+    right: 0;
+}
+
+.prev {
+    left: 0;
+}
+
+/* Navigation dots */
+.dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 3px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fade animation */
+.fade {
+    animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
