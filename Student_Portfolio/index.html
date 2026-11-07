@@ -46,7 +46,8 @@
                 </q>
                 <br> -Joseph Weizenbaum
                 <br>
-                <br> My name is Janos Madacs. I am learning Software and Web Development. Welcome to my portfolio website!
+                <br> My name is Janos Madacs. I am learning Software and Web Development. Welcome to my portfolio
+                website!
                 <br>
                 <br> Thank you for stopping by and enjoy!
             </p>
@@ -63,7 +64,8 @@
         <div class="Column_1">
             <h1>About</h1>
             <p>
-                I am a Software and Web Development student. I enjoy learning new technologies, building websites, and solving problems. 
+                I am a Software and Web Development student. I enjoy learning new technologies, building websites, and
+                solving problems.
                 <br>
                 <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech
                     Academy</a>'s Software Developer Boot Camp, and trained and experienced in the following web and
@@ -88,8 +90,7 @@
         </div>
         <!--Right column-->
         <div class="Column_2">
-            <a href="https://github.com/janos311" target="_blank"><img src="images/GitHub.png"
-                    alt="GitHub Logo"></a>
+            <a href="https://github.com/janos311" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
         </div>
     </div>
 
@@ -124,6 +125,22 @@
         <br>
         </p>
     </footer>
+
+    <!-- JavaScript -->
+    <script>
+        const navbarLinks = document.querySelectorAll(".Navbar a");
+
+        navbarLinks.forEach(function (link) {
+            link.addEventListener("click", function () {
+                navbarLinks.forEach(function (item) {
+                    item.classList.remove("active");
+                });
+
+                this.classList.add("active");
+            });
+        });
+    </script>
+
 </body>
 
 </html>
